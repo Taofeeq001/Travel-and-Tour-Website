@@ -5,6 +5,7 @@ import tour from '../../../Images/tour-guide 1.png';
 import plane from '../../../Images/plane.png';
 import rel from '../../../Images/hands 1.png';
 import medical from '../../../Images/medical-team 1.png'
+import rectangle from '../../../Images/Rectangle 157.png'
 
 
 const Categories = () =>{
@@ -25,7 +26,7 @@ const Categories = () =>{
                     paragraph = 'sunt qui repellat saepe quo velit aperiam id aliquam placeat.'
                     class = "two"
                 />
-                
+                <img className="rect" src={rectangle} alt="" />
                 <Categoryprop
                     image = {rel}
                     header = 'Guided Tour'

@@ -13,7 +13,33 @@
 .offeredService{
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
 }
-.offeredService .one{
-    border: 1px solid black;
+.offeredService img{
+    width: 50px;
+    height:50px;
+}
+.offeredService p{
+    text-align: center;
+}
+.offeredService .one, .offeredService .two, .offeredService .three, .offeredService .four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 13%;
+    padding: 20px;
+}
+.offeredService .two{
+    box-shadow: 1px 0px 0px 1px rgb(0, 0, 0, 0.10);
+    border-radius: 20px;
+    z-index: 100;
+    background-color: white;
+}
+.rect{
+    position: absolute;
+    left: 38%;
+    top: 121%;
+    z-index: -10;
 }
