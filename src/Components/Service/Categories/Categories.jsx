@@ -41,12 +41,25 @@ const Categories = () =>{
                 />
             </div>
             <div className="romantic-tropical">
-                <img className="romantic-image" src={honey} alt="" />
+                <div>
+                    <img className="romantic-image" src={honey} alt="" />
+                    <img src="" alt="" />
+                </div>
                 <div className="romantic-content">
                     <h4>HONEYMOON SPECIALS</h4>
                     <h1>Our Romantic Tropical Destinations</h1>
                     <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!</p>
-                    <button className="desktop-btn">View Packages</button>
+                    <div>
+                        <button className="desktop-btn">View Packages</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Fast & Easy</h4>
+                <div>
+                    <div>
+                        <h1>Get Your Favourite Resort Booking</h1>
+                    </div>
                 </div>
             </div>
         </div>

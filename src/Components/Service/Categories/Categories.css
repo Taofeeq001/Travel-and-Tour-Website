@@ -55,9 +55,13 @@
 }
 .romantic-content{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .romantic-content h1{
     width: 60%;
+    font-size: 40px;
 }
 .romantic-content p{
     width: 64%;
