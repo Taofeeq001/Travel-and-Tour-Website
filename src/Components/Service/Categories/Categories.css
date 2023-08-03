@@ -43,3 +43,22 @@
     top: 121%;
     z-index: -10;
 }
+.romantic-image{
+    width: 550px;
+    height: 500px;
+}
+.romantic-tropical{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.romantic-content{
+    width: 50%;
+}
+.romantic-content h1{
+    width: 60%;
+}
+.romantic-content p{
+    width: 64%;
+}
