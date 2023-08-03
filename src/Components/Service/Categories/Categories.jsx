@@ -7,6 +7,8 @@ import rel from '../../../Images/hands 1.png';
 import medical from '../../../Images/medical-team 1.png'
 import rectangle from '../../../Images/Rectangle 157.png'
 import honey from '../../../Images/Illustration.png'
+import data from "./Data";
+import flights from '../../../Images/Illustration flight.png'
 
 const Categories = () =>{
     return(
@@ -54,11 +56,35 @@ const Categories = () =>{
                     </div>
                 </div>
             </div>
-            <div>
-                <h4>Fast & Easy</h4>
-                <div>
-                    <div>
-                        <h1>Get Your Favourite Resort Booking</h1>
+            <div className="fast-easy">
+                <div className="fast-container">
+                    <h4>Fast & Easy</h4>
+                    <div className="fast-details">
+                        <div className="fast-detailsContent">
+                            <div>
+                                <h1>Get Your Favourite Resort Booking</h1>
+                                <div>
+                                    {
+                                        data.map((data)=>{
+                                            return(
+                                                <div className="mapper">
+                                                    <div>
+                                                        <img src={data.image} alt="" />
+                                                    </div>
+                                                    <div>
+                                                        <h4>{data.head}</h4>
+                                                        <p>{data.para}</p>
+                                                    </div>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </div>
+                            <div>
+                                <img src={flights} alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
