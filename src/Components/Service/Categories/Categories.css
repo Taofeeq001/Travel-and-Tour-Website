@@ -1,0 +1,19 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 14rem;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+}
+.categories h4{
+    color: #DF6951;
+}
+.offeredService{
+    display: flex;
+    align-items: center;
+}
+.offeredService .one{
+    border: 1px solid black;
+}

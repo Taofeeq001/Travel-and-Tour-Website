@@ -1,0 +1,7 @@
+.airlines{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(228, 225, 225);
+    padding: 35px 0;
+}
