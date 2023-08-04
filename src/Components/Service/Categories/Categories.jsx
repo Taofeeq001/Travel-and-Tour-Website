@@ -58,12 +58,12 @@ const Categories = () =>{
             </div>
             <div className="fast-easy">
                 <div className="fast-container">
-                    <h4>Fast & Easy</h4>
                     <div className="fast-details">
                         <div className="fast-detailsContent">
-                            <div>
+                            <div className="resort-booking">
+                                <h4>Fast & Easy</h4>
                                 <h1>Get Your Favourite Resort Booking</h1>
-                                <div>
+                                <div className="map-container">
                                     {
                                         data.map((data)=>{
                                             return(
@@ -71,7 +71,7 @@ const Categories = () =>{
                                                     <div>
                                                         <img src={data.image} alt="" />
                                                     </div>
-                                                    <div>
+                                                    <div className="mapper-content">
                                                         <h4>{data.head}</h4>
                                                         <p>{data.para}</p>
                                                     </div>
@@ -81,7 +81,7 @@ const Categories = () =>{
                                     }
                                 </div>
                             </div>
-                            <div>
+                            <div className="aero-image">
                                 <img src={flights} alt="" />
                             </div>
                         </div>

@@ -1,0 +1,48 @@
+.explore{
+    display: flex;
+    width: 100%;
+}
+.nature{
+    display: flex;
+    background: url(../../../Images//Nature.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    flex-direction: column;
+    color: white;
+}
+.explore h1, .explore h4 {
+    text-shadow: 3px 0px 2px black;
+}
+.cities{
+    display: flex;
+    background: url(../../../Images//Cities.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    flex-direction: column;
+    color: white;
+}
+.nature-btn, .cities-btn{
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .explore{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
