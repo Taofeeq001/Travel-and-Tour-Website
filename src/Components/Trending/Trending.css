@@ -1,8 +1,117 @@
 .trending{
     width: 100%;
-}
-.trending-container{
-    width: 70%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.trending-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trend-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+.trend-heading h1{
+    width: 30%;
+}
+.trendingMap{
+    display: flex;
+    justify-content: space-around;
+
+}
+.country-img{
+    width: 305px;
+    height: 250px;
+    border-radius: 20px;
+    position: absolute;
+}
+.img2{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 45%;
+    left: 30px;
+}
+.countryMap{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+}
+.content-mapped{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.calender{
+    display:flex;
+    margin-top: 13rem;
+    gap: 4rem
+}
+.cal-sub{
+    display: flex;
+    gap: 5px;
+}
+.country-star{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width:97%;
+}
+.heading-del{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.loc-continent{
+    display: flex;
+    gap: 5px;
+}
+.stars{
+    height: 10px;
+}
+.word{
+    font-size: small;
+}
+.countryMap button{
+    padding: 10px 16px;
+    background-color: #DF6951;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 950px) {
+    .trending{
+        padding: 2rem 20px;
+    }
+    .trending-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .trend-heading h1{
+        width: 100%;
+    }
+    .trendingMap{
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+    .img2{
+        top: 10%;
+    }
+    .calender{
+        display: flex;
+        width: 100% !important;
+        background-color: blue;
+    }
 }
