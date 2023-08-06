@@ -108,3 +108,42 @@
 .fast-details img{
     width: 100%;
 }
+
+@media screen and (max-width:950px) {
+    .categories{
+        padding: 20px;
+        gap: 10px;
+    }
+    .offeredService{
+        flex-direction: column;
+    }
+    .offeredService .one, .offeredService .two, .offeredService .three, .offeredService .four{
+        width: 50%;
+    }
+    .rect{
+        position: absolute;
+        left: 23%;
+        top: 154%;
+        z-index: -10;
+    }
+    .romantic-tropical{
+        flex-direction: column;
+        /* padding: 0 20px; */
+    }
+    .romantic-image{
+        width:380px;
+        height: 400px;
+    }
+    .romantic-content{
+        width: 100%;
+    }
+    .romantic-content h1{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .romantic-content p{
+        width: 100%;
+        text-align: center;
+    }
+}

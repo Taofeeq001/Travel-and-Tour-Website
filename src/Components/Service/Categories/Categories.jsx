@@ -45,7 +45,7 @@ const Categories = () =>{
             <div className="romantic-tropical">
                 <div>
                     <img className="romantic-image" src={honey} alt="" />
-                    <img src="" alt="" />
+                    {/* <img src="" alt="" /> */}
                 </div>
                 <div className="romantic-content">
                     <h4>HONEYMOON SPECIALS</h4>

@@ -24,7 +24,8 @@ const Trend = [
         "heading": "1,000 $",
         "del": "1,200 $",
         'word': "Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.",
-        "btn": "Explore Now"
+        "btn": "Explore Now",
+        "link":"htt"
     },
     {
         "image": amazon,

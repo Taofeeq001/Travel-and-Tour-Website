@@ -57,6 +57,11 @@
     color: white;
     width: 55%;
 }
+.backfit-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .backfit{
     display: flex;
     backdrop-filter: blur(40px);
@@ -81,3 +86,58 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 950px) {
+    .hero{
+        padding: 10px;
+    }
+    .desktop-nav{
+        display: none;
+    }
+    .desktop-btn{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+    .hamburger svg{
+        width: 40px;
+        height: 40px;
+    }
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        backdrop-filter: blur(5px);
+        height: 0;
+        overflow: hidden;
+        transition: 2s ease-in;
+    }
+    .mobile-after{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        backdrop-filter: blur(5px);
+        height: 30vh;
+        overflow: hidden;
+        transition: 2s ease-in;
+    }
+    .destop-content{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .destop-content h1{
+        width: 100%;
+        font-size: xx-large;
+    }
+    .people p{
+        text-align: center;
+    }
+}
+

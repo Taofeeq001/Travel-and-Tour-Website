@@ -22,7 +22,7 @@ const Trending = () =>{
                                         <div className="calender" >
                                             <div className="cal-sub">
                                                 <i>{trend.calander}</i>
-                                                <p style={{color:'grey', width:"100%"}}>{trend.days}</p>
+                                                <p>{trend.days}</p>
                                             </div>
                                             <div className="cal-sub">
                                                 <i>{trend.profile}</i>

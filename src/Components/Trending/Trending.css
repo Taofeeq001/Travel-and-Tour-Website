@@ -50,15 +50,16 @@
     display: flex;
     flex-direction: column;
     gap: 7px;
+    width: 100%;
 }
 .calender{
     display:flex;
     margin-top: 13rem;
-    gap: 4rem
 }
 .cal-sub{
     display: flex;
     gap: 5px;
+    width: 100%;
 }
 .country-star{
     display: flex;
@@ -109,9 +110,17 @@
     .img2{
         top: 10%;
     }
+    .content-mapped{
+        width: 100%;
+    }
+
     .calender{
         display: flex;
-        width: 100% !important;
-        background-color: blue;
+        width: 100%;
+        /* gap: 0; */
+    }
+    .word{
+        width: 100%;
+        padding: 0;
     }
 }

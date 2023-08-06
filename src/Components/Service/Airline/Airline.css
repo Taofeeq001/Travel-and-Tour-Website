@@ -5,3 +5,18 @@
     background-color: rgb(228, 225, 225);
     padding: 35px 0;
 }
+
+@media screen and (max-width:950px) {
+    .airlines{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        padding: 20px;
+        justify-content: center;
+        gap: 15px;
+    }
+    .airlines img{
+        width: 100px;
+        height: 50px;
+    }
+}
