@@ -128,10 +128,10 @@
     }
     .romantic-tropical{
         flex-direction: column;
-        /* padding: 0 20px; */
+        padding: 0 2g0px;
     }
     .romantic-image{
-        width:380px;
+        width:350px;
         height: 400px;
     }
     .romantic-content{
