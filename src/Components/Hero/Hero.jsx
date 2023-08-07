@@ -17,7 +17,7 @@ const Hero = () =>{
         e.preventDefault()
         setOpen(!open)
         
-    }
+    } 
 
     return(
         <div className="hero">
