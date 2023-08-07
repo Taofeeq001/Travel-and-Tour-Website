@@ -25,6 +25,20 @@
     color: white;
     font-weight: bold;
 }
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    position: absolute;
+    left: 45%;
+    width: 15%;
+    top: 10%;
+    border-radius: 15px;
+}
+.dropdown-sub{
+    display: none;
+    /* content: ""; */
+}
 
 .desktop-nav a{
     text-decoration: none;

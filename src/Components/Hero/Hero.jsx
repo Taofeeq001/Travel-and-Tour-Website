@@ -9,8 +9,13 @@ import people from '../../Images/Group 81.png';
 
 const Hero = () =>{
     const [tog, setTog] = useState(false);
+    const [open, setOpen] = useState(false);
     const handleClick = () =>{
         setTog(!tog)
+    }
+    const handleService = () =>{
+        setOpen(!open)
+        
     }
 
     return(
@@ -21,7 +26,13 @@ const Hero = () =>{
                     <div className="desktop-nav">
                         <a href="">Home</a>
                         <a href="">About</a>
-                        <a href="">Services</a>
+                        <a onClick={handleService} className="serv" href="#">Services</a>
+                            <div className= {open? "dropdown":"dropdown-sub"}>
+                                <a href="">Honeymoon packages</a>
+                                <a href="">Tour packages</a>
+                                <a href="">Musical Event</a>
+                                <a href="">Build Package</a>
+                            </div>
                         <a href="">Upcoming Packages</a>
                     </div>
                     <button className="desktop-btn">Get in Touch</button>
