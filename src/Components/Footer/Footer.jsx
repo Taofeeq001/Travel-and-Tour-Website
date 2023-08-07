@@ -36,7 +36,7 @@ const Footer = () => {
                     <a href="">Toronto</a>
                 </div>
                 <div className='newsletter'>
-                    <h4>Join our Newletter</h4>
+                    <h4>Join our Newsletter</h4>
                     <div className='subscribe'>
                         <input placeholder='Your email address' type="text" />
                         <button>Subscribe</button>

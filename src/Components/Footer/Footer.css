@@ -75,3 +75,22 @@
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 950px) {
+    .footer-container{
+        padding: 10px;
+    }
+    .footer-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .foot-content2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .travel, .company, .destination, .newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
