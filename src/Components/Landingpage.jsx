@@ -4,6 +4,7 @@ import Service from "./Service/Service";
 import Holiday from "./Holiday/Holiday";
 import Testimony from "./Testimony/Testimony";
 import Trending from "./Trending/Trending";
+import Footer from "./Footer/Footer";
 
 const Landingpage = () =>{
     return(
@@ -13,6 +14,7 @@ const Landingpage = () =>{
             <Holiday/>
             <Trending/>
             <Testimony/>
+            <Footer/>
         </div>
     )
 }

@@ -1,0 +1,77 @@
+.footer-container{
+    width: 100%;
+    padding: 2rem 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    background: url(../../Images/Footer\ img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 22rem;
+}
+.footer-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.foot-content2{
+    display: flex;
+    justify-content: space-around;
+}
+.travel{
+    width: 100%;
+}
+.company, .destination, .newsleter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.footer-content a{
+    text-decoration: none;
+    color: black;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.newsletter p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #181433;
+    font-weight: bold;
+}
+.subscribe{
+    background-color: #EEEEFF;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+}
+.subscribe input, .subscribe button{
+    padding: 20px;
+
+}
+.subscribe input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.subscribe button{
+    border-radius: 15px;
+    background-color: #DF6951;
+    font-weight: bold;
+    border: none;
+}
+.stroke{
+    width: 100%;
+    height: 1.5px;
+    background-color: black;
+}
+.researve{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
