@@ -13,7 +13,8 @@ const Hero = () =>{
     const handleClick = () =>{
         setTog(!tog)
     }
-    const handleService = () =>{
+    const handleService = (e) =>{
+        e.preventDefault()
         setOpen(!open)
         
     }
@@ -26,7 +27,7 @@ const Hero = () =>{
                     <div className="desktop-nav">
                         <a href="">Home</a>
                         <a href="">About</a>
-                        <a onClick={handleService} className="serv" href="#">Services</a>
+                        <a onClick={handleService} className="serv" href="">Services</a>
                             <div className= {open? "dropdown":"dropdown-sub"}>
                                 <a href="">Honeymoon packages</a>
                                 <a href="">Tour packages</a>
